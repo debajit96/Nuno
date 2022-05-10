@@ -1,0 +1,304 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #36ae7c !important;
+}
+
+.active {
+  color: #36ae7c !important;
+}
+
+/* media-navbar */
+@media (max-width: 992px) {
+  .nav-link {
+    text-align: center;
+  }
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  min-height: 700px;
+  background-image: url("../computers.png");
+  background-attachment: fixed;
+}
+.banner h1 {
+  padding-top: 18rem;
+  font-family: "Lato Bold 700", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.banner h2 {
+  padding: 2rem 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.banner button {
+  font-family: "Roboto", sans-serif;
+}
+
+/* media-banner */
+
+@media (max-width: 992px) {
+  .banner {
+    padding: 0;
+    min-height: 800px;
+    background-size: cover;
+    background-position: bottom center;
+  }
+
+  .banner h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .banner h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner {
+    background-attachment: scroll;
+  }
+}
+
+/* Course */
+.course h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a3c40;
+}
+
+.course p {
+  width: 90%;
+  margin: 1rem auto;
+  color: #8f8f8f;
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.course button {
+  font-family: "Roboto", sans-serif;
+}
+
+/* media-course */
+@media (max-width: 992px) {
+  .course h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .course p {
+    margin-top: 1.2rem;
+  }
+}
+
+/* Features */
+.features h2 {
+  color: #1a3c40;
+  font-size: 3rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  padding-top: 2rem;
+}
+
+.features h3 {
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.features p {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  color: #8f8f8f;
+  font-family: "Roboto", sans-serif;
+}
+
+.features i {
+  font-size: 3rem;
+  color: #36ae7c;
+}
+
+/* Resources */
+.resources {
+  background-color: #074f57;
+  width: 100%;
+  min-height: 650px;
+  background-image: url("../images/apple.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  /* opacity: 1; */
+}
+
+.resources h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  padding-top: 6rem;
+}
+
+.resource-content {
+  margin-top: 6rem;
+}
+
+.resources h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.resources p {
+  font-size: 1.3em;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  margin-top: 1.5rem;
+}
+
+.resources i {
+  font-size: 3.5rem;
+  color: #36ae7c;
+}
+
+/* media-resources */
+@media (max-width: 992px) {
+  .resources {
+    padding-bottom: 1.7rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .resources p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .resources {
+    background-attachment: scroll;
+  }
+}
+
+/* Clients */
+.clients {
+  padding-bottom: 2rem;
+}
+
+.clients h2 {
+  color: #1a3c40;
+  font-size: 3rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.clients-content {
+  padding: 2rem 0;
+}
+
+.clients-content p {
+  font-family: "Roboto", sans-serif;
+  color: #8f8f8f;
+  font-size: 1.1rem;
+}
+
+.clients-content hr {
+  border: 1px solid #36ae7c;
+}
+
+.clients-content em {
+  font-family: "Merriweather", serif;
+}
+
+.clients-content i {
+  color: #36ae7c;
+  font-size: 2rem;
+}
+
+/* media-clients */
+@media (max-width: 992px) {
+  .clients-content img {
+    width: 40%;
+  }
+
+  .clients-content p {
+    margin: 1.5rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+/* Course info */
+.c-info h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.c-info button {
+  margin: 1.5rem 0;
+}
+
+/* media */
+@media (max-width: 992px) {
+  .c-info h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}
+
+/* Footer */
+
+.contacts p {
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+  margin: 2rem auto;
+}
+
+.contacts hr {
+  border: 1px solid #fff;
+}
+
+.contacts i {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+.contacts i:hover {
+  color: #36ae7c;
+  cursor: pointer;
+}
+
+/* media-footer */
+@media (max-width: 992px) {
+  .contacts p {
+    width: 90%;
+  }
+}
